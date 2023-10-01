@@ -5,12 +5,19 @@ body {
 
 }
 p {
- font-family: 'Josefin Sans';
- color: #660018;
+    font-family: 'Josefin Sans';
+    color: #660018;
+}
+li {
+    font-family: 'Josefin Sans';
+    color: #660018;
 }
 h1 {
     font-family: 'Lobster Two';
     color: #660018;
+    font-size: 36px;
+    margin-left: 50%;
+    margin-right: 50%:
 }
 h2 {
     font-family: 'Lobster Two';
@@ -19,6 +26,22 @@ h2 {
 h3 {
     font-family: 'Lobster Two';
     color: #660018;
+}
+.header-images {
+    background-image: url("../images/awning.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+}
+.header-nav {
+    display: inline-block;
+    padding: 15px;
+    height: 25px;
+    width: 1000px;
+}
+li {
+    float: right;
+    list-style-type: none;
 }
 .story {
     float: right;
@@ -37,7 +60,16 @@ h3 {
 .hiring {
     background-color: #97C29A;
     width: 75%;
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-top: 2500px;
 }
 .socials_text {
     float: left;
+}
+.footer {
+    display: inline-block;
+    padding: 15px;
+    height: 25px;
+    width: 100%;
 }
