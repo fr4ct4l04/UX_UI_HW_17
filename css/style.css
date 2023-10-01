@@ -8,6 +8,11 @@ p {
     font-family: 'Josefin Sans';
     color: #660018;
 }
+.p1 {
+    font-family: 'Josefin Sans';
+    display: block;
+    color: #fffde4;
+}
 li {
     font-family: 'Josefin Sans';
     color: #660018;
@@ -17,7 +22,7 @@ h1 {
     color: #660018;
     font-size: 36px;
     margin-left: 50%;
-    margin-right: 50%:
+    margin-bottom: 5%;
 }
 h2 {
     font-family: 'Lobster Two';
@@ -30,46 +35,92 @@ h3 {
 .header-images {
     background-image: url("../images/awning.png");
     background-repeat: no-repeat;
+    display:inline-block;
     height: 100px;
     width: 100%;
 }
 .header-nav {
+    float: right;
     display: inline-block;
-    padding: 15px;
-    height: 25px;
     width: 1000px;
+    margin-right: 15%;
+}
+.nav-link {
+    display: inline-block;
+    padding: 2%;
 }
 li {
     float: right;
     list-style-type: none;
 }
-.story {
+.left {
+    float: left;
+    width: 49%;
+}
+.right {
     float: right;
+    width: 49%;
+}
+.story {
     background-color: #660018;
-    width: 25%;
+    width: 50%;
+    margin-left: 8%;
+    height: 300px;
 }
 .team {
-    float: left;
+    margin-top: 15%;
+    margin-left: 8%;
+    width: 50%;
+}
+.arc {
+    margin-left: 8%;
 }
 .mission {
-    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 50%;
 }
 .socials {
-    float: left;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 50%;
 }
 .hiring {
     background-color: #97C29A;
-    width: 75%;
-    margin-left: 15%;
-    margin-right: 25%;
+    display: inline-block;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 10%;
     margin-top: 2500px;
+}
+.bread {
+    padding: 5%;
 }
 .socials_text {
     float: left;
 }
+.middle-box {
+    background-color: #660018;
+}
 .footer {
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: 1500px;
     display: inline-block;
     padding: 15px;
-    height: 25px;
-    width: 100%;
+    height: 600px;
+    width: 1500px;
+}
+.location {
+    margin-left: 5%;
+}
+.hours {
+    margin-left: 30%;
+}
+.contact {
+    margin-left: 60%;
+}
+.footer-row {
+    display: inline-block;
+    padding: 2%;
 }
