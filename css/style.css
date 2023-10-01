@@ -7,11 +7,14 @@ body {
 p {
     font-family: 'Josefin Sans';
     color: #660018;
+    line-height: 1.5;
 }
 .p1 {
     font-family: 'Josefin Sans';
+    line-height: 1.5;
     display: block;
     color: #fffde4;
+    margin: 10%;
 }
 li {
     font-family: 'Josefin Sans';
@@ -42,8 +45,11 @@ h3 {
 .header-nav {
     float: right;
     display: inline-block;
-    width: 1000px;
-    margin-right: 15%;
+    width: 700px;
+}
+.header-icons {
+    float: right;
+    display: inline-block;
 }
 .nav-link {
     display: inline-block;
@@ -72,6 +78,11 @@ li {
     margin-left: 8%;
     width: 50%;
 }
+.team-copy, .socials-copy, .mission-copy {
+    width: 75%;
+    margin: 15%;
+    margin-left: 30%;
+}
 .arc {
     margin-left: 8%;
 }
@@ -89,15 +100,19 @@ li {
     background-color: #97C29A;
     display: inline-block;
     width: 85%;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 10%;
     margin-top: 2500px;
 }
+.hiring-copy {
+    float: right;
+    margin: 5%
+}
+.hiring-row {
+    display: inline-block;
+}
 .bread {
     padding: 5%;
-}
-.socials_text {
-    float: left;
 }
 .middle-box {
     background-color: #660018;
@@ -113,14 +128,17 @@ li {
 }
 .location {
     margin-left: 5%;
+    padding-right: 5%;
 }
-.hours {
-    margin-left: 30%;
+.hours, {
+    margin-left: 10%;
+}
+.times {
+    margin-left: 5%;
 }
 .contact {
-    margin-left: 60%;
+    margin-left: 5%;
 }
 .footer-row {
     display: inline-block;
-    padding: 2%;
 }
