@@ -1,15 +1,43 @@
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster Two', cursive;
+
 body {
 
 }
-.p {
-
+p {
+ font-family: 'Josefin Sans';
+ color: #660018;
 }
-.h1 {
-
+h1 {
+    font-family: 'Lobster Two';
+    color: #660018;
 }
-.h2 {
-
+h2 {
+    font-family: 'Lobster Two';
+    color: #660018;
 }
-.h3 {
-    
+h3 {
+    font-family: 'Lobster Two';
+    color: #660018;
+}
+.story {
+    float: right;
+    background-color: #660018;
+    width: 25%;
+}
+.team {
+    float: left;
+}
+.mission {
+    float: right;
+}
+.socials {
+    float: left;
+}
+.hiring {
+    background-color: #97C29A;
+    width: 75%;
+}
+.socials_text {
+    float: left;
 }
