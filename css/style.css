@@ -2,7 +2,7 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster Two', cursive;
 
 body {
-
+    height:fit-content;
 }
 p {
     font-family: 'Josefin Sans';
@@ -38,18 +38,19 @@ h3 {
 .header-images {
     background-image: url("../images/awning.png");
     background-repeat: no-repeat;
-    display:inline-block;
     height: 100px;
     width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .header-nav {
-    float: right;
     display: inline-block;
-    width: 700px;
+    width: 1000px;
 }
 .header-icons {
     float: right;
     display: inline-block;
+    width: 100px;
 }
 .nav-link {
     display: inline-block;
@@ -71,7 +72,16 @@ li {
     background-color: #660018;
     width: 50%;
     margin-left: 8%;
+    padding: 3%;
     height: 300px;
+}
+.p2 {
+    font-family: 'Lobster Two';
+    line-height: 1.5;
+    font-size: 18pt;
+    display: block;
+    color: #fffde4;
+    margin: 10%;
 }
 .team {
     margin-top: 15%;
@@ -83,15 +93,13 @@ li {
     margin: 15%;
     margin-left: 30%;
 }
+.socials-icons {
+    margin-left: 30%;
+}
 .arc {
     margin-left: 8%;
 }
-.mission {
-    margin-right: 5%;
-    margin-top: 5%;
-    width: 50%;
-}
-.socials {
+.mission, .socials {
     margin-right: 5%;
     margin-top: 5%;
     width: 50%;
@@ -102,20 +110,28 @@ li {
     width: 85%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2500px;
+    margin-top: 200px;
+    margin-bottom: 5%;
 }
 .hiring-copy {
     float: right;
-    margin: 5%
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 500px;
 }
 .hiring-row {
     display: inline-block;
 }
 .bread {
-    padding: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .middle-box {
     background-color: #660018;
+    width: 50%;
+    height: 100px;
+    padding: 10%;
 }
 .footer {
     background-image: url("../images/footer.png");
@@ -131,13 +147,13 @@ li {
     padding-right: 5%;
 }
 .hours, {
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .times {
     margin-left: 5%;
 }
 .contact {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .footer-row {
     display: inline-block;
